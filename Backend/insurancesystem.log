@@ -1,0 +1,161 @@
+[34m2025-09-09 10:26:25.189[0;39m [INFO] c.h.a.i.AutomoblieInsuranceSystemApplication [main] Starting AutomoblieInsuranceSystemApplication using Java 17.0.10 with PID 25156 (C:\Users\prave\eclipse-workspace\automoblieInsuranceSystem\backend\target\classes started by prave in C:\Users\prave\eclipse-workspace\automoblieInsuranceSystem\backend)
+[34m2025-09-09 10:26:25.195[0;39m [INFO] c.h.a.i.AutomoblieInsuranceSystemApplication [main] No active profile set, falling back to 1 default profile: "default"
+[34m2025-09-09 10:26:26.427[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[34m2025-09-09 10:26:26.525[0;39m [INFO] o.s.d.r.c.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 87 ms. Found 8 JPA repository interfaces.
+[34m2025-09-09 10:26:27.311[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat initialized with port 8080 (http)
+[34m2025-09-09 10:26:27.332[0;39m [INFO] o.a.c.c.StandardService [main] Starting service [Tomcat]
+[34m2025-09-09 10:26:27.334[0;39m [INFO] o.a.c.c.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.43]
+[34m2025-09-09 10:26:27.425[0;39m [INFO] o.a.c.c.C.[.[.[/] [main] Initializing Spring embedded WebApplicationContext
+[34m2025-09-09 10:26:27.425[0;39m [INFO] o.s.b.w.s.c.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 2179 ms
+[34m2025-09-09 10:26:27.614[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+[34m2025-09-09 10:26:28.169[0;39m [INFO] c.z.h.p.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@704d3b00
+[34m2025-09-09 10:26:28.173[0;39m [INFO] c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+[34m2025-09-09 10:26:28.312[0;39m [INFO] o.h.j.i.u.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+[34m2025-09-09 10:26:28.421[0;39m [INFO] o.h.Version [main] HHH000412: Hibernate ORM core version 6.6.22.Final
+[34m2025-09-09 10:26:28.476[0;39m [INFO] o.h.c.i.RegionFactoryInitiator [main] HHH000026: Second-level cache disabled
+[34m2025-09-09 10:26:28.904[0;39m [INFO] o.s.o.j.p.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+[34m2025-09-09 10:26:29.133[0;39m [WARN] o.h.o.deprecation [main] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+[34m2025-09-09 10:26:29.164[0;39m [INFO] o.h.o.c.pooling [main] HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[34m2025-09-09 10:26:30.642[0;39m [INFO] o.h.e.t.j.p.i.JtaPlatformInitiator [main] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[34m2025-09-09 10:26:30.858[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-09-09 10:26:31.371[0;39m [INFO] o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [main] Global AuthenticationManager configured with UserDetailsService bean with name userInfoUserDetailsServiceImp
+[34m2025-09-09 10:26:31.401[0;39m [INFO] o.s.d.j.r.q.QueryEnhancerFactory [main] Hibernate is in classpath; If applicable, HQL parser will be used.
+[34m2025-09-09 10:26:32.111[0;39m [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[34m2025-09-09 10:26:32.574[0;39m [DEBUG] o.s.s.w.DefaultSecurityFilterChain [main] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, LogoutFilter, JwtAuthFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, ExceptionTranslationFilter, AuthorizationFilter
+[34m2025-09-09 10:26:33.127[0;39m [INFO] o.s.b.w.e.t.TomcatWebServer [main] Tomcat started on port 8080 (http) with context path '/'
+[34m2025-09-09 10:26:33.145[0;39m [INFO] c.h.a.i.AutomoblieInsuranceSystemApplication [main] Started AutomoblieInsuranceSystemApplication in 8.585 seconds (process running for 9.364)
+[34m2025-09-09 10:26:33.150[0;39m [INFO] o.s.b.a.b.JobLauncherApplicationRunner [main] Running default command line with: []
+[34m2025-09-09 10:26:39.752[0;39m [INFO] o.a.c.c.C.[.[.[/] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+[34m2025-09-09 10:26:39.754[0;39m [INFO] o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+[34m2025-09-09 10:26:39.758[0;39m [INFO] o.s.w.s.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 3 ms
+[34m2025-09-09 10:26:39.809[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing OPTIONS /api/auth/login
+[34m2025-09-09 10:26:39.826[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured OPTIONS /api/auth/login
+[34m2025-09-09 10:26:39.895[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:26:39.907[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing POST /api/auth/login
+[34m2025-09-09 10:26:39.908[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured POST /api/auth/login
+[34m2025-09-09 10:26:40.602[0;39m [DEBUG] o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-3] Authenticated user
+[34m2025-09-09 10:26:40.748[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:25.463[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/proposals/getAll
+[34m2025-09-09 10:28:25.463[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing OPTIONS /api/proposals/getAll
+[34m2025-09-09 10:28:25.464[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured OPTIONS /api/proposals/getAll
+[34m2025-09-09 10:28:25.464[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured OPTIONS /api/proposals/getAll
+[34m2025-09-09 10:28:25.466[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:25.469[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:25.472[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/proposals/getAll
+[34m2025-09-09 10:28:25.560[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/proposals/getAll
+[34m2025-09-09 10:28:25.568[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:28:25.597[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:28:25.916[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/proposals/getAll
+[34m2025-09-09 10:28:25.939[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/proposals/getAll
+[34m2025-09-09 10:28:25.946[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-5] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:28:25.948[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-5] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:28:39.799[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/auth/login
+[34m2025-09-09 10:28:39.801[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/auth/login
+[34m2025-09-09 10:28:39.947[0;39m [DEBUG] o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+[34m2025-09-09 10:28:39.955[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:42.391[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing OPTIONS /api/vehicles/getAll
+[34m2025-09-09 10:28:42.391[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing OPTIONS /api/vehicles/getAll
+[34m2025-09-09 10:28:42.391[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured OPTIONS /api/vehicles/getAll
+[34m2025-09-09 10:28:42.391[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured OPTIONS /api/vehicles/getAll
+[34m2025-09-09 10:28:42.394[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:42.394[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:42.399[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:28:42.414[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:28:42.416[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-1] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:42.417[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-1] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:42.516[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:28:42.534[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:28:42.537[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-3] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:42.538[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-3] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:56.409[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/vehicles/add
+[34m2025-09-09 10:28:56.410[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured OPTIONS /api/vehicles/add
+[34m2025-09-09 10:28:56.413[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:28:56.417[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/vehicles/add
+[34m2025-09-09 10:28:56.433[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/vehicles/add
+[34m2025-09-09 10:28:56.525[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-4] Authorizing method invocation ReflectiveMethodInvocation: public com.hexaware.automobile.insurancesystem.entities.Vehicle com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.addVehicle(com.hexaware.automobile.insurancesystem.dto.VehicleDto); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:56.527[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-4] Authorized method invocation ReflectiveMethodInvocation: public com.hexaware.automobile.insurancesystem.entities.Vehicle com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.addVehicle(com.hexaware.automobile.insurancesystem.dto.VehicleDto); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:56.699[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:28:56.719[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:28:56.723[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:28:56.724[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:02.647[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:29:02.670[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:29:02.676[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:02.678[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:02.770[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:29:02.787[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:29:02.790[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-5] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:02.790[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-5] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:20.272[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing POST /api/auth/login
+[34m2025-09-09 10:29:20.273[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured POST /api/auth/login
+[34m2025-09-09 10:29:20.408[0;39m [DEBUG] o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-8] Authenticated user
+[34m2025-09-09 10:29:20.419[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:29:22.592[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:29:22.610[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:29:22.615[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-9] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:22.615[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-9] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:22.682[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/vehicles/getAll
+[34m2025-09-09 10:29:22.698[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/vehicles/getAll
+[34m2025-09-09 10:29:22.699[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-10] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:22.699[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-10] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController.getAllVehicles(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.VehicleRestController]
+[34m2025-09-09 10:29:38.992[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Securing GET /api/proposals/getAll
+[34m2025-09-09 10:29:39.008[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-1] Secured GET /api/proposals/getAll
+[34m2025-09-09 10:29:39.012[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-1] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:29:39.012[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-1] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:29:39.105[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Securing GET /api/proposals/getAll
+[34m2025-09-09 10:29:39.119[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-3] Secured GET /api/proposals/getAll
+[34m2025-09-09 10:29:39.120[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-3] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:29:39.122[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-3] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController.getAllProposals(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.ProposalRestController]
+[34m2025-09-09 10:29:41.130[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing OPTIONS /api/policies/getAll
+[34m2025-09-09 10:29:41.130[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing OPTIONS /api/policies/getAll
+[34m2025-09-09 10:29:41.131[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured OPTIONS /api/policies/getAll
+[34m2025-09-09 10:29:41.132[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured OPTIONS /api/policies/getAll
+[34m2025-09-09 10:29:41.132[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:29:41.133[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:29:41.137[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/policies/getAll
+[34m2025-09-09 10:29:41.151[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/policies/getAll
+[34m2025-09-09 10:29:41.152[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:29:41.153[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:29:41.209[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Securing GET /api/policies/getAll
+[34m2025-09-09 10:29:41.223[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-7] Secured GET /api/policies/getAll
+[34m2025-09-09 10:29:41.225[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:29:41.226[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-7] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:29:43.131[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Securing OPTIONS /api/addons/getAll
+[34m2025-09-09 10:29:43.131[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-5] Secured OPTIONS /api/addons/getAll
+[34m2025-09-09 10:29:43.134[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Securing OPTIONS /api/addons/getAll
+[34m2025-09-09 10:29:43.134[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-8] Secured OPTIONS /api/addons/getAll
+[34m2025-09-09 10:29:43.139[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:29:43.143[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:29:43.150[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Securing GET /api/addons/getAll
+[34m2025-09-09 10:29:43.162[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-9] Secured GET /api/addons/getAll
+[34m2025-09-09 10:29:43.163[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-9] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController.getAllAddons(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController]
+[34m2025-09-09 10:29:43.165[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-9] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController.getAllAddons(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController]
+[34m2025-09-09 10:29:43.250[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Securing GET /api/addons/getAll
+[34m2025-09-09 10:29:43.262[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-10] Secured GET /api/addons/getAll
+[34m2025-09-09 10:29:43.265[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-10] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController.getAllAddons(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController]
+[34m2025-09-09 10:29:43.266[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-10] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController.getAllAddons(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.AddonRestController]
+[34m2025-09-09 10:45:51.436[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Securing POST /api/auth/login
+[34m2025-09-09 10:45:51.444[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-4] Secured POST /api/auth/login
+[34m2025-09-09 10:45:51.761[0;39m [DEBUG] o.s.s.a.d.DaoAuthenticationProvider [http-nio-8080-exec-4] Authenticated user
+[34m2025-09-09 10:45:51.796[0;39m [DEBUG] o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-8080-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+[34m2025-09-09 10:45:55.198[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Securing GET /api/policies/getAll
+[34m2025-09-09 10:45:55.224[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-2] Secured GET /api/policies/getAll
+[34m2025-09-09 10:45:55.227[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-2] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:45:55.231[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-2] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:45:55.314[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Securing GET /api/policies/getAll
+[34m2025-09-09 10:45:55.354[0;39m [DEBUG] o.s.s.w.FilterChainProxy [http-nio-8080-exec-6] Secured GET /api/policies/getAll
+[34m2025-09-09 10:45:55.361[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorizing method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 10:45:55.366[0;39m [DEBUG] o.s.s.a.m.AuthorizationManagerBeforeMethodInterceptor [http-nio-8080-exec-6] Authorized method invocation ReflectiveMethodInvocation: public java.util.List com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController.getAllPolicies(); target is of class [com.hexaware.automobile.insurancesystem.restcontroller.PolicyRestController]
+[34m2025-09-09 17:08:38.508[0;39m [INFO] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(404)-127.0.0.1] Application shutdown requested.
+[34m2025-09-09 17:08:38.567[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [RMI TCP Connection(404)-127.0.0.1] Commencing graceful shutdown. Waiting for active requests to complete
+[34m2025-09-09 17:08:38.725[0;39m [INFO] o.s.b.w.e.t.GracefulShutdown [tomcat-shutdown] Graceful shutdown complete
+[34m2025-09-09 17:08:38.767[0;39m [INFO] o.s.o.j.LocalContainerEntityManagerFactoryBean [RMI TCP Connection(404)-127.0.0.1] Closing JPA EntityManagerFactory for persistence unit 'default'
+[34m2025-09-09 17:08:38.790[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(404)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+[34m2025-09-09 17:08:38.802[0;39m [INFO] c.z.h.HikariDataSource [RMI TCP Connection(404)-127.0.0.1] HikariPool-1 - Shutdown completed.
