@@ -1,10 +1,10 @@
 "# vehicle_insurance_management_system" 
 
-Short description :
+"Short description : "
 
 A web-based Vehicle Insurance Management System that allows users to manage vehicles, proposals, policies, add-ons and payments. The application supports role-based authentication (Admin and User), navigation and routing, and a layered architecture with a Spring Boot backend using JWT-based authentication.
 
-Features : 
+ "Features : "
 
 User registration and login (JWT authentication)
 
@@ -31,3 +31,18 @@ Backend: Spring Boot (REST API), Spring Security (JWT), Hibernate / Spring Data 
 Database: MySQL
 
 Frontend: React 19 vite — routing and role-based UI flows
+
+
+
+
+"Authentication & Authorization : "
+
+JWT-based authentication for stateless sessions.
+
+User and Admin roles. Examples:
+
+User: create proposals, view own policies, make payments
+
+Admin: approve/reject proposals, issue policies, manage vehicles and add-ons
+
+Example flow: login → receive JWT → include Authorization: Bearer <token> header in subsequent requests
